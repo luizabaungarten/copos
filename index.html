@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css"> </head>
+<script src="./public/bundle.js" defer></script>
+
+<title>CupCalc</title>
+
+<body> 
+    <main> 
+        <h1>Copos</h1> 
+        <p>Sistema de dimensionamento e rotulagem de copos</p>
+        
+    <label for="raioMaior"> Raio Maior (R) em cm: </label><br>
+    <input type="number" id="raioMaior"><br><br>
+    <label for="raioMenor"> Raio Menor (r) em cm: </label><br>
+    <input type="number" id="raioMenor"><br><br>
+    <label for="altura"> Altura (h) em cm: </label><br>
+    <input type="number" id="altura" step="0.01" ><br><br>
+
+    <button id="progPrincipal"> Calcular </button>
+    
+    <div id="resposta"></div>
+    </main>
+
+</body>
+</html>

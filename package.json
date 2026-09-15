@@ -1,0 +1,1 @@
+{"name":"15_09_26","version":"1.0.0","description":"","main":"index.js","scripts":{"test":"jest","build":"webpack"},"keywords":[],"author":"","license":"ISC","devDependencies":{"jest":"^30.5.1","webpack":"^5.111.0","webpack-cli":"^7.2.3"}}
